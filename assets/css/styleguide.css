@@ -646,6 +646,7 @@ video.overlay {
   width: clamp(9em, 12vw, 11em);
   height: clamp(9em, 12vw, 11em);
   border-radius: 50%;
+  border: 5px solid var(--color-green);
   border: 0;
   background: var(--color-dark-dark);
 }
@@ -664,11 +665,6 @@ video.overlay {
 }
 
 /* --- Button Circle - Theme Dark --- */
-
-.theme-dark .btn-round .btn-click {
-  background: var(--color-green);
-}
-
 .theme-dark .btn-round .btn-fill {
   background: var(--color-green-dark);
 }
